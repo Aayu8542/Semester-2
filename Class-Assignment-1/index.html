@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Students Marks System</h2>
+    <div clas="form">
+        <Label for="name">Student Name:</Label>
+        <input type="text" id="name" placeholder="Enter Student Name">
+        <br>
+        <br>
+        <Label for="marks">Marks:</Label>
+        <input type="number" id="marks" placeholder="Enter Marks">
+        <br>
+        <br>
+        <label for="grade">Math Marks</label>
+        <input type="text" id="grade" placeholder="Grade will be displayed here">
+        <br>
+        <br>
+        <label for="grade">Science Marks</label>
+        <input type="text" id="grade" placeholder="Grade will be displayed here">
+        <br>
+        <br>
+        <label for="grade">English Marks</label>
+        <input type="text" id="grade" placeholder="Grade will be displayed here">
+        <br>
+        <br>
+        <label for="grade">Hindi Marks</label>
+        <input type="text" id="grade" placeholder="Grade will be displayed here">
+        <br>    
+        <br>
+        <button onclick="addStudent()">Add Student</button>
+
+</div>
+<br>
+<div class="buttons">
+<button onclick="displayStudents()">Display All Students</button>
+<button onclick="calculateResults()">Show Total & Average</button>
+<button onclick="showTopStudents()">Above 80 Average</button>
+<button onclick="showFailedStudents()">Failed Students</button>
+<button onclick="countStudents()">Total Students</button>
+</div>
+
+<div id="output"></div>
+
+<script src="java.js"></script>
+    </div>
+</body>
+</html>
