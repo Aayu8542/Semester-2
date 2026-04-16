@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chartlinemedia - Level Up Your Skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="Logo.jpeg" alt="EliteHub logo" class="logo-img" />
+            <span>Chartlinemedia</span>
+        </div>
+        <ul>
+            <li><a href="#shorts">Shorts</a></li>
+            <li><a href="#long-videos">Videos</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-main-title">Powerful Video Editing for Modern Creaters & Growing Brands</h1>
+        <p class="hero-subtitle">We transform your raw clips into engaging shorts videos, thumbnails, that boost engagement.</p>
+    </section>
+
+    <!-- CTA -->
+    <!-- Shorts / Short-form videos -->
+    <section id="shorts" class="shorts">
+        <h1 class="shorts-title">Sample of Shorts-Form Video Editing</h1>
+        <div class="shorts-grid">
+            <div class="short-card" data-video="Vid-1.mp4">
+                <div class="video-container">
+                    <video class="short-video" muted loop>
+                        <source src="Vid-1.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">0:45</span>
+                <h3>Quick Edit Tip</h3>
+                <p class="short-desc">Cut faster and keep viewers hooked.</p>
+            </div>
+
+            <div class="short-card" data-video="vid-2.mp4">
+                <div class="video-container">
+                    <video class="short-video" muted loop>
+                        <source src="vid-2.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">0:30</span>
+                <h3>Perfect Thumbnail</h3>
+                <p class="short-desc">Create thumbnails that get clicks.</p>
+            </div>
+
+            <div class="short-card" data-video="Vid-3.mp4">
+                <div class="video-container">
+                    <video class="short-video" muted loop>
+                        <source src="Vid-3.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">0:25</span>
+                <h3>Hook in 3s</h3>
+                <p class="short-desc">How to open your short the right way.</p>
+            </div>
+
+            <div class="short-card" data-video="Vid-4.mp4">
+                <div class="video-container">
+                    <video class="short-video" muted loop>
+                        <source src="Vid-4.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">0:50</span>
+                <h3>Sound Design</h3>
+                <p class="short-desc">Add quick effects for impact.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Long-form videos -->
+    <section id="long-videos" class="long-videos">
+        <h2 class="shorts-title">Sample of Long-Form Of Video Editing</h2>
+        <div class="long-videos-grid">
+            <div class="long-video-card" data-video="long-video-1.mp4">
+                <div class="video-container-long">
+                    <video class="long-video" muted loop>
+                        <source src="Long-1.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">15:30</span>
+                <h3>Complete Video Editing Masterclass</h3>
+                <p class="video-desc">From import to export, learn professional editing workflows.</p>
+            </div>
+
+            <div class="long-video-card" data-video="long-video-2.mp4">
+                <div class="video-container-long">
+                    <video class="long-video" muted loop>
+                        <source src="Long-2.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <span class="duration">12:45</span>
+                <h3>Advanced Effects & Transitions</h3>
+                <p class="video-desc">Master cinematic effects that take your videos to the next level.</p>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Modal for video playback -->
+    <div id="video-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Image popup button at end -->
+    <section class="image-section">
+        <div class="image-end-container">
+            <button id="show-image-btn" class="hero-btn">Click Here For Pricing</button>
+            <div id="image-popup" class="image-popup">
+                <div class="image-popup-content">
+                    <button id="close-image-btn" class="modal-close" aria-label="Close image">&times;</button>
+                    <img id="opened-image" src="Price.jpeg" alt="Opened image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact-footer">
+        <div class="contact-box">
+            <h2>Contact Me</h2>
+            <div class="contact-row">
+                <p class="contact-item"><span class="contact-icon email-icon" aria-hidden="true"><img class="contact-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Email logo"></span>Email: <a href="mailto:chartlinemedia@gmail.com">chartlinemedia@gmail.com</a></p>
+                <p class="contact-item"><span class="contact-icon whatsapp-icon" aria-hidden="true"><img class="contact-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp logo"></span>WhatsApp: <a href="https://wa.me/918795413342" target="_blank" rel="noreferrer">+91 87954 13342</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
